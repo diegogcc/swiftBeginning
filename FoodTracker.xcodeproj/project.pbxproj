@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B0CB8F4216D3FF20016F045 /* CarrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0CB8F3216D3FF20016F045 /* CarrosViewController.swift */; };
 		5B920E0621519C9500FB1BAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B920E0521519C9500FB1BAD /* AppDelegate.swift */; };
 		5B920E0821519C9500FB1BAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B920E0721519C9500FB1BAD /* ViewController.swift */; };
 		5B920E0B21519C9500FB1BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B920E0921519C9500FB1BAD /* Main.storyboard */; };
 		5B920E0D21519C9700FB1BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B920E0C21519C9700FB1BAD /* Assets.xcassets */; };
 		5B920E1021519C9700FB1BAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B920E0E21519C9700FB1BAD /* LaunchScreen.storyboard */; };
 		5B920E1B21519C9700FB1BAD /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B920E1A21519C9700FB1BAD /* FoodTrackerTests.swift */; };
+		5B920E3421627D8400FB1BAD /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B920E3321627D8400FB1BAD /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B0CB8EC216CFD8A0016F045 /* MyPlayground1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5B0CB8F3216D3FF20016F045 /* CarrosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosViewController.swift; sourceTree = "<group>"; };
 		5B920E0221519C9500FB1BAD /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B920E0521519C9500FB1BAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B920E0721519C9500FB1BAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,7 @@
 		5B920E1621519C9700FB1BAD /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B920E1A21519C9700FB1BAD /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		5B920E1C21519C9700FB1BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B920E3321627D8400FB1BAD /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +84,13 @@
 			children = (
 				5B920E0521519C9500FB1BAD /* AppDelegate.swift */,
 				5B920E0721519C9500FB1BAD /* ViewController.swift */,
+				5B0CB8EC216CFD8A0016F045 /* MyPlayground1.playground */,
+				5B920E3321627D8400FB1BAD /* RatingControl.swift */,
 				5B920E0921519C9500FB1BAD /* Main.storyboard */,
 				5B920E0C21519C9700FB1BAD /* Assets.xcassets */,
 				5B920E0E21519C9700FB1BAD /* LaunchScreen.storyboard */,
 				5B920E1121519C9700FB1BAD /* Info.plist */,
+				5B0CB8F3216D3FF20016F045 /* CarrosViewController.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -198,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B920E0821519C9500FB1BAD /* ViewController.swift in Sources */,
+				5B920E3421627D8400FB1BAD /* RatingControl.swift in Sources */,
+				5B0CB8F4216D3FF20016F045 /* CarrosViewController.swift in Sources */,
 				5B920E0621519C9500FB1BAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNS7FKNH9A;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNS7FKNH9A;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
