@@ -10,6 +10,7 @@ import UIKit
 
 class CarrosViewController: UIViewController {
     @IBOutlet weak var labelTitulo: UILabel!
+    var objetoMazda3:Mazda3?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,19 +19,28 @@ class CarrosViewController: UIViewController {
     }
     
     @IBAction func crearMazda(_ sender: UIButton) {
-        
+        objetoMazda3 = Mazda3()
+        print("objeto mazda creado")
     }
     
     @IBAction func mostrarPropiedades(_ sender: UIButton) {
-    
+        if objetoMazda3==nil {
+            print("el objeto no existe todavía")
+        }else{
+        print("color: \(objetoMazda3!.color), tamaño: \(objetoMazda3!.tamanho), puertas: \(objetoMazda3!.numeroPuertas) y precio: \(objetoMazda3!.precio)")
+        }
     }
     
     @IBAction func encenderMazda(_ sender: UIButton) {
-    
+        if objetoMazda3 != nil{
+            objetoMazda3!.encender() 
+        }
     }
     
     @IBAction func acelerar(_ sender: UIButton) {
-    
+        if objetoMazda3 != nil{
+            objetoMazda3!.acelerar()
+        }
     }
     
     /*

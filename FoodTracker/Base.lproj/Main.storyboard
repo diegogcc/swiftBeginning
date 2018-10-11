@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gRo-bD-a6I">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -83,7 +83,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-82.400000000000006" y="133.5832083958021"/>
+            <point key="canvasLocation" x="-198" y="134"/>
         </scene>
         <!--Carros View Controller-->
         <scene sceneID="0G4-2B-TEb">
@@ -131,9 +131,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="orT-hb-ios" firstAttribute="top" secondItem="Jl0-3r-vm0" secondAttribute="bottom" constant="20" id="1ba-xG-bER"/>
                             <constraint firstItem="Jl0-3r-vm0" firstAttribute="leading" secondItem="6Gm-Q9-ZlV" secondAttribute="leading" constant="25" id="2hK-v8-uSs"/>
+                            <constraint firstItem="6Gm-Q9-ZlV" firstAttribute="bottom" secondItem="Pe2-8Q-1hL" secondAttribute="bottom" constant="20" id="5JZ-j2-gIf"/>
                             <constraint firstItem="orT-hb-ios" firstAttribute="leading" secondItem="6Gm-Q9-ZlV" secondAttribute="leading" constant="25" id="6nb-Mx-1Sz"/>
+                            <constraint firstItem="Jl0-3r-vm0" firstAttribute="top" secondItem="4YA-1p-vdy" secondAttribute="bottom" constant="20" id="D12-4f-0zb"/>
                             <constraint firstItem="Pe2-8Q-1hL" firstAttribute="leading" secondItem="6Gm-Q9-ZlV" secondAttribute="leading" constant="25" id="E6d-cL-aov"/>
+                            <constraint firstItem="4YA-1p-vdy" firstAttribute="top" secondItem="6Gm-Q9-ZlV" secondAttribute="top" constant="50" id="WL9-o8-9gT"/>
+                            <constraint firstItem="Pe2-8Q-1hL" firstAttribute="top" secondItem="orT-hb-ios" secondAttribute="bottom" constant="20" id="Ztf-jv-CJG"/>
                             <constraint firstItem="4YA-1p-vdy" firstAttribute="leading" secondItem="6Gm-Q9-ZlV" secondAttribute="leading" constant="25" id="d9U-xc-PUw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Gm-Q9-ZlV"/>
