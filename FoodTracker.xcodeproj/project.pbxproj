@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B0CB8F4216D3FF20016F045 /* CarrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0CB8F3216D3FF20016F045 /* CarrosViewController.swift */; };
 		5B0CB8F6216E5C9B0016F045 /* Mazda3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0CB8F5216E5C9B0016F045 /* Mazda3.swift */; };
+		5B0CB8F8216FAF1F0016F045 /* Mazda3Mini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0CB8F7216FAF1F0016F045 /* Mazda3Mini.swift */; };
 		5B920E0621519C9500FB1BAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B920E0521519C9500FB1BAD /* AppDelegate.swift */; };
 		5B920E0821519C9500FB1BAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B920E0721519C9500FB1BAD /* ViewController.swift */; };
 		5B920E0B21519C9500FB1BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B920E0921519C9500FB1BAD /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		5B0CB8EC216CFD8A0016F045 /* MyPlayground1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5B0CB8F3216D3FF20016F045 /* CarrosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosViewController.swift; sourceTree = "<group>"; };
 		5B0CB8F5216E5C9B0016F045 /* Mazda3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mazda3.swift; sourceTree = "<group>"; };
+		5B0CB8F7216FAF1F0016F045 /* Mazda3Mini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mazda3Mini.swift; sourceTree = "<group>"; };
 		5B920E0221519C9500FB1BAD /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B920E0521519C9500FB1BAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B920E0721519C9500FB1BAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				5B920E1121519C9700FB1BAD /* Info.plist */,
 				5B0CB8F3216D3FF20016F045 /* CarrosViewController.swift */,
 				5B0CB8F5216E5C9B0016F045 /* Mazda3.swift */,
+				5B0CB8F7216FAF1F0016F045 /* Mazda3Mini.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				5B920E3421627D8400FB1BAD /* RatingControl.swift in Sources */,
 				5B0CB8F6216E5C9B0016F045 /* Mazda3.swift in Sources */,
 				5B0CB8F4216D3FF20016F045 /* CarrosViewController.swift in Sources */,
+				5B0CB8F8216FAF1F0016F045 /* Mazda3Mini.swift in Sources */,
 				5B920E0621519C9500FB1BAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

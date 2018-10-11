@@ -100,32 +100,39 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4YA-1p-vdy">
-                                <rect key="frame" x="25" y="130" width="88" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4YA-1p-vdy">
+                                <rect key="frame" x="25" y="70" width="88" height="30"/>
                                 <state key="normal" title="Crear Mazda"/>
                                 <connections>
                                     <action selector="crearMazda:" destination="gRo-bD-a6I" eventType="touchUpInside" id="gka-IW-Hyn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jl0-3r-vm0">
-                                <rect key="frame" x="25" y="175" width="144" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jl0-3r-vm0">
+                                <rect key="frame" x="25" y="120" width="144" height="30"/>
                                 <state key="normal" title="Mostrar Propiedades"/>
                                 <connections>
                                     <action selector="mostrarPropiedades:" destination="gRo-bD-a6I" eventType="touchUpInside" id="8Z0-dm-kz4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="orT-hb-ios">
-                                <rect key="frame" x="25" y="223" width="101" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="orT-hb-ios">
+                                <rect key="frame" x="25" y="170" width="101" height="30"/>
                                 <state key="normal" title="Encender Auto"/>
                                 <connections>
                                     <action selector="encenderMazda:" destination="gRo-bD-a6I" eventType="touchUpInside" id="6D4-Yv-MSO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pe2-8Q-1hL">
-                                <rect key="frame" x="25" y="267" width="57" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pe2-8Q-1hL">
+                                <rect key="frame" x="25" y="220" width="57" height="30"/>
                                 <state key="normal" title="Acelerar"/>
                                 <connections>
                                     <action selector="acelerar:" destination="gRo-bD-a6I" eventType="touchUpInside" id="wy9-po-hpC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJc-n1-f09">
+                                <rect key="frame" x="25" y="270" width="62" height="30"/>
+                                <state key="normal" title="Recargar"/>
+                                <connections>
+                                    <action selector="recargar:" destination="gRo-bD-a6I" eventType="touchUpInside" id="ORo-Es-GIi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -133,13 +140,14 @@
                         <constraints>
                             <constraint firstItem="orT-hb-ios" firstAttribute="top" secondItem="Jl0-3r-vm0" secondAttribute="bottom" constant="20" id="1ba-xG-bER"/>
                             <constraint firstItem="Jl0-3r-vm0" firstAttribute="leading" secondItem="6Gm-Q9-ZlV" secondAttribute="leading" constant="25" id="2hK-v8-uSs"/>
-                            <constraint firstItem="6Gm-Q9-ZlV" firstAttribute="bottom" secondItem="Pe2-8Q-1hL" secondAttribute="bottom" constant="20" id="5JZ-j2-gIf"/>
                             <constraint firstItem="orT-hb-ios" firstAttribute="leading" secondItem="6Gm-Q9-ZlV" secondAttribute="leading" constant="25" id="6nb-Mx-1Sz"/>
                             <constraint firstItem="Jl0-3r-vm0" firstAttribute="top" secondItem="4YA-1p-vdy" secondAttribute="bottom" constant="20" id="D12-4f-0zb"/>
                             <constraint firstItem="Pe2-8Q-1hL" firstAttribute="leading" secondItem="6Gm-Q9-ZlV" secondAttribute="leading" constant="25" id="E6d-cL-aov"/>
+                            <constraint firstItem="KJc-n1-f09" firstAttribute="top" secondItem="Pe2-8Q-1hL" secondAttribute="bottom" constant="20" id="Vbe-du-nnR"/>
                             <constraint firstItem="4YA-1p-vdy" firstAttribute="top" secondItem="6Gm-Q9-ZlV" secondAttribute="top" constant="50" id="WL9-o8-9gT"/>
                             <constraint firstItem="Pe2-8Q-1hL" firstAttribute="top" secondItem="orT-hb-ios" secondAttribute="bottom" constant="20" id="Ztf-jv-CJG"/>
                             <constraint firstItem="4YA-1p-vdy" firstAttribute="leading" secondItem="6Gm-Q9-ZlV" secondAttribute="leading" constant="25" id="d9U-xc-PUw"/>
+                            <constraint firstItem="KJc-n1-f09" firstAttribute="leading" secondItem="6Gm-Q9-ZlV" secondAttribute="leading" constant="25" id="nOg-hr-zI9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Gm-Q9-ZlV"/>
                     </view>
