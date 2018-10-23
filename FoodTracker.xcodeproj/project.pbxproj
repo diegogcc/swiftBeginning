@@ -45,6 +45,7 @@
 		5B920E1A21519C9700FB1BAD /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		5B920E1C21519C9700FB1BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B920E3321627D8400FB1BAD /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		5BCF335B217E341800D6A60C /* ProtocolosDelegados.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolosDelegados.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 				5B0CB8F3216D3FF20016F045 /* CarrosViewController.swift */,
 				5B0CB8F5216E5C9B0016F045 /* Mazda3.swift */,
 				5B0CB8F7216FAF1F0016F045 /* Mazda3Mini.swift */,
+				5BCF335B217E341800D6A60C /* ProtocolosDelegados.playground */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
